@@ -14,7 +14,7 @@ WORKDIR /setup
 ADD install-spark.sh /setup/
 RUN ./install-spark.sh
 
-ADD log4j.properties /usr/lib/spark/conf
+ADD log4j.properties /usr/lib/spark/conf/
 
 WORKDIR /usr/lib/spark
 
