@@ -6,7 +6,7 @@ ENV SCALA_HOME=/usr/lib/scala
 ENV PATH=$PATH:/usr/lib/scala/bin:/usr/lib/spark/bin
 
 #Spark UI
-EXPORT 4040
+EXPOSE 4040
 
 RUN mkdir /setup
 WORKDIR /setup
